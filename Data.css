@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(248, 253, 253);
+  }
+  h1 {
+    color: rgb(1, 1, 12);
+    text-align: center;
+  }
+  p{
+    color: black;
+    text-align:  center;
+  }
+  iframe {
+    border: none;
+    margin-left: 100px;
+    height: 500px; 
+    width: 400px ;
+  }
+  float:left{
+    margin-left: 0px;
+  }
+  float:right{
+  margin-right: 0px;
+  }
+  .chartBox {
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .chartMenu {
+    width: 100vw;
+    height: 20px;
+    background: #1A1A1A;
+    color: rgba(54, 162, 235, 1);
+  }
+
+  @media (query) {
+    @media only screen and (min-width: 480px) and (max-width: 768px) {
+      .content {
+          width: 50%;
+          height: auto ;
+      }
+   }
+}
